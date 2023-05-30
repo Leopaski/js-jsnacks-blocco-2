@@ -80,10 +80,12 @@ for (let i=0;i<cars.length;i++){
       carsBenzina=carsBenzina.push(cars[i])
     }
 }
+let carsdiesel=[];
 cars.forEach((singleCar)=>{
     if(singleCar.alimentazione==diesel){
-        carsBenzina=carsBenzina.push(cars[i])
+        carsdiesel=carsdiesel.push(cars[i])
       }
-    return cars,
-});
-cars.filter(cars=>cars.alimentazione!=diesel && cars.alimentazione!=benzina)
+    return carsdiesel;
+    });
+const otherCars =[];
+otherCars= cars.filter(cars=>cars.alimentazione!=diesel && cars.alimentazione!=benzina)
