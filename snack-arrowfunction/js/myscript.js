@@ -74,3 +74,13 @@ let cars=[{
     alimentazione: metano,
 }
 ]
+let carsBenzina=[];
+for (let i=0;i<cars.length;i++){
+    if(cars.alimentazione==benzina){
+      carsBenzina=carsBenzina.push(cars[i])
+    }
+}
+cars.forEach(cars.alimentazione==diesel)=>{
+    return cars;
+}
+cars.filter(cars=>cars.alimentazione!=diesel && cars.alimentazione!=benzina)
