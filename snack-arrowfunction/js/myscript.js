@@ -1,4 +1,9 @@
-let cars=[{
+let carsElement={
+    marca:"",
+    modello:"",
+    alimentazione:"",
+}
+let cars=[carsElement {
     marca: Fiat, 
     modello: Panda,
     alimentazione: gpl,
@@ -89,3 +94,7 @@ cars.forEach((singleCar)=>{
     });
 const otherCars =[];
 otherCars= cars.filter(cars=>cars.alimentazione!=diesel && cars.alimentazione!=benzina)
+console.log(cars)
+console.log(carsBenzina)
+console.log(carsdiesel)
+console.log(otherCars)
